@@ -1,0 +1,6 @@
+@TrumpApi_HostAddress = http://localhost:5177
+
+GET {{TrumpApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

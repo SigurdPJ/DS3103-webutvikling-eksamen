@@ -1,0 +1,245 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\docs.html",
+      "PackagePath": "staticwebassets\\docs.html"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\Screenshot 2024-12-01 144816.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-12-01 144816.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\Sweater-Weather.jpg",
+      "PackagePath": "staticwebassets\\images\\Sweater-Weather.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\barbara-white.png",
+      "PackagePath": "staticwebassets\\images\\barbara-white.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\daniel-hall.png",
+      "PackagePath": "staticwebassets\\images\\daniel-hall.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\david-martinez.png",
+      "PackagePath": "staticwebassets\\images\\david-martinez.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\emily-davis.png",
+      "PackagePath": "staticwebassets\\images\\emily-davis.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-all-merch.png",
+      "PackagePath": "staticwebassets\\images\\get-all-merch.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-all-staff.png",
+      "PackagePath": "staticwebassets\\images\\get-all-staff.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-all-thoughts.png",
+      "PackagePath": "staticwebassets\\images\\get-all-thoughts.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-merch-search.png",
+      "PackagePath": "staticwebassets\\images\\get-merch-search.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-merch-type.png",
+      "PackagePath": "staticwebassets\\images\\get-merch-type.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-merch.png",
+      "PackagePath": "staticwebassets\\images\\get-merch.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-staff-name.png",
+      "PackagePath": "staticwebassets\\images\\get-staff-name.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-staff.png",
+      "PackagePath": "staticwebassets\\images\\get-staff.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\get-thought.png",
+      "PackagePath": "staticwebassets\\images\\get-thought.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\green-maga-hat.jpg",
+      "PackagePath": "staticwebassets\\images\\green-maga-hat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\james-taylor.png",
+      "PackagePath": "staticwebassets\\images\\james-taylor.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\jane-smith.png",
+      "PackagePath": "staticwebassets\\images\\jane-smith.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\joseph-harris.png",
+      "PackagePath": "staticwebassets\\images\\joseph-harris.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\karen-walker.png",
+      "PackagePath": "staticwebassets\\images\\karen-walker.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\linda-wilson.png",
+      "PackagePath": "staticwebassets\\images\\linda-wilson.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\mark-young.png",
+      "PackagePath": "staticwebassets\\images\\mark-young.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\michael-johnson.png",
+      "PackagePath": "staticwebassets\\images\\michael-johnson.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\nancy-clark.png",
+      "PackagePath": "staticwebassets\\images\\nancy-clark.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\navy-maga-hat.jpg",
+      "PackagePath": "staticwebassets\\images\\navy-maga-hat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\patricia-moore.png",
+      "PackagePath": "staticwebassets\\images\\patricia-moore.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\pink-maga-hat.jpg",
+      "PackagePath": "staticwebassets\\images\\pink-maga-hat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\pint-glass.jpg",
+      "PackagePath": "staticwebassets\\images\\pint-glass.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\red-maga-hat.jpg",
+      "PackagePath": "staticwebassets\\images\\red-maga-hat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\red-socks.jpg",
+      "PackagePath": "staticwebassets\\images\\red-socks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\robert-brown.png",
+      "PackagePath": "staticwebassets\\images\\robert-brown.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\socks-set.jpg",
+      "PackagePath": "staticwebassets\\images\\socks-set.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\susan-anderson.png",
+      "PackagePath": "staticwebassets\\images\\susan-anderson.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\thomas-lewis.png",
+      "PackagePath": "staticwebassets\\images\\thomas-lewis.png"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\trump-desk.jpg",
+      "PackagePath": "staticwebassets\\images\\trump-desk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\trump-flag-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\trump-flag-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\trump-mug.jpg",
+      "PackagePath": "staticwebassets\\images\\trump-mug.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\trump-sneakers.jpg",
+      "PackagePath": "staticwebassets\\images\\trump-sneakers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\trump-sweathirt.jpg",
+      "PackagePath": "staticwebassets\\images\\trump-sweathirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\water-bottle.jpg",
+      "PackagePath": "staticwebassets\\images\\water-bottle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\images\\white-socks.jpg",
+      "PackagePath": "staticwebassets\\images\\white-socks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\docs.js",
+      "PackagePath": "staticwebassets\\scripts\\docs.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\index.js",
+      "PackagePath": "staticwebassets\\scripts\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\modules\\DBModule.js",
+      "PackagePath": "staticwebassets\\scripts\\modules\\DBModule.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-docs-content.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-docs-content.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-header.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-header.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-image-docs.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-image-docs.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-merch-docs.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-merch-docs.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-schemas-docs.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-schemas-docs.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-staff-docs.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-staff-docs.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-status-codes-docs.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-status-codes-docs.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-thought-docs.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-thought-docs.js"
+    },
+    {
+      "Id": "C:\\Users\\sigur\\C# Prodjects\\TrumpApi\\wwwroot\\scripts\\utilities\\set-use-examples-docs.js",
+      "PackagePath": "staticwebassets\\scripts\\utilities\\set-use-examples-docs.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TrumpApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TrumpApi.props",
+      "PackagePath": "build\\TrumpApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TrumpApi.props",
+      "PackagePath": "buildMultiTargeting\\TrumpApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TrumpApi.props",
+      "PackagePath": "buildTransitive\\TrumpApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,432 @@
+
+/* Farge variabler */
+
+:root {
+    --accent-color-r: 179;
+    --accent-color-g: 25;
+    --accent-color-b: 66;
+
+    --accent-color: rgb(
+        var(--accent-color-r), 
+        var(--accent-color-g), 
+        var(--accent-color-b)
+    );
+
+    --accent-color-dark: rgb(
+        calc(var(--accent-color-r) * 0.9),
+        calc(var(--accent-color-g) * 0.9),
+        calc(var(--accent-color-b) * 0.9)
+    );
+
+    --main-color-r: 10;
+    --main-color-g: 49;
+    --main-color-b: 97;
+
+    --main-color: rgb(
+        var(--main-color-r), 
+        var(--main-color-g), 
+        var(--main-color-b)
+    );
+
+    --main-color-dark: rgb(
+        calc(var(--main-color-r) * 0.9),
+        calc(var(--main-color-g) * 0.9),
+        calc(var(--main-color-b) * 0.9)
+    );
+
+    --background-color-r: 247;
+    --background-color-g: 247;
+    --background-color-b: 247;
+
+    --background-color-light: rgb(
+        var(--background-color-r),
+        var(--background-color-g),
+        var(--background-color-b)
+    );
+
+    --background-color-dark: rgb(
+        calc(var(--background-color-r) * 0.9),
+        calc(var(--background-color-g) * 0.9),
+        calc(var(--background-color-b) * 0.9)
+    );
+}
+
+/*----------------------------------------------------*/
+
+/* Grid */
+
+.grid-12-column {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.col-xs-0 { grid-column: span 0; }
+.col-xs-4 { grid-column: span 4; }
+.col-xs-8 { grid-column: span 8; }
+.col-xs-12 { grid-column: span 12; }
+
+@media (min-width: 576px) {
+    .col-sm-0 { grid-column: span 0; }
+    .col-sm-3 { grid-column: span 3; }
+    .col-sm-4 { grid-column: span 4; }
+    .col-sm-8 { grid-column: span 8; }
+    .col-sm-9 { grid-column: span 9; }
+    .col-sm-10 { grid-column: span 10; }
+}
+
+@media (min-width: 768px) {
+    .col-md-3 { grid-column: span 3; }
+    .col-md-4 { grid-column: span 4; }
+    .col-md-8 { grid-column: span 8; }
+    .col-md-9 { grid-column: span 9; }
+}
+
+@media (min-width: 992px) {
+    .col-lg-2 { grid-column: span 2; }
+    .col-lg-3 { grid-column: span 3; }
+    .col-lg-4 { grid-column: span 4; }
+    .col-lg-5 { grid-column: span 5; }
+    .col-lg-6 { grid-column: span 6; }
+    .col-lg-7 { grid-column: span 7; }
+    .col-lg-10 { grid-column: span 10; }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-4 { grid-column: span 4; }
+}
+
+/*----------------------------------------------------*/
+
+/* Felles styling */
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    background-color: var(--background-color-light);
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+.no-scroll-sm {
+    overflow-y: auto;
+
+    @media (min-width: 576px) {
+        overflow: hidden;
+    }
+}
+
+.body-text {
+    font-size: 20px;
+}
+
+.img-responsiv {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.section--border-bottom {
+    border-bottom: 1px solid var(--main-color);
+}
+
+/*----------------------------------------------------*/
+
+/* Header styling */
+
+header {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--main-color-dark);
+    height: 62px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-label {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.page-label__a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.main-nav {
+    margin-right: 28px;
+}
+
+.main-nav__ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__li {
+    margin-left: 20px;
+}
+
+.main-nav__a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-nav__a:hover {
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------*/
+
+/* Styling for index.html */
+
+.about-container {
+    margin: 20px 40px;
+    padding: 24px;
+}
+
+.trump-img-container {
+    margin-top: 62px;
+}
+
+.about-text-container {
+    margin-top: 20px;
+}
+
+.functionality-ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.functionality-li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*----------------------------------------------------*/
+
+/* docs.html */
+
+.docs-main {
+    position: absolute;
+    top: 62px;
+    width: 100%;
+    height: calc(100% - 62px);
+}
+
+.docs-nav {
+    height: 100%;
+    background-color: #ffffff;
+    border-right: 1px solid var(--background-color-dark);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+    @media (max-width: 576px) {
+        width: 100vw;
+        max-width: 100vw;
+        grid-column: span 12;
+    }
+}
+
+.docs-nav__button {
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    border-bottom: 1px solid var(--accent-color);
+    transition: background-color 0.3s ease;
+}
+
+.docs-nav__button:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.docs-container {
+    padding-bottom: 200px;
+    padding: 60px;
+    
+    @media (min-width: 576px) {
+        overflow: auto;
+    }
+
+    @media (max-width: 576px) {
+        width: 80%;
+        padding: 28px;
+    }
+}
+
+/*----------------------------------------------------*/
+
+/* Styling for endpoints documentation */
+
+.http-method-container {
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    background-color: #ffffff;
+    word-wrap: break-word;
+}
+
+.endpoint {
+    font-weight: 700;
+    margin: 0;
+}
+
+.http-method-label {
+    font-size: 16px;
+    margin-right: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+}
+
+.http-method-label--get {
+    background-color: #0000ff;
+    border: 1px solid #0000cc;
+}
+
+.http-method-label--post {
+    background-color: #28a745;
+    border: 1px solid #1c6f32;
+}
+
+.http-method-label--put {
+    background-color: #ffa500;
+    border: 1px solid #e57e00;
+}
+
+.http-method-label--delete {
+    background-color: #ff0000;
+    border: 1px solid #e60000;
+}
+
+.endpoint-img-container {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 16px;
+}
+
+.endpoint-img {
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+/*----------------------------------------------------*/
+
+/* Styling for schema docs */
+
+.schema-section {
+    margin-top: 0;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.schema-title-container {
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+.schema-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    border-bottom: 1px solid var(--main-color);
+    text-align: left;
+}
+
+.schema-row__p {
+    width: 100%; 
+    margin: 0;
+    padding: 8px;
+} 
+
+/*----------------------------------------------------*/
+
+/* Use examples styling */
+
+.example-article {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 28px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.example-article__img-container {
+    width: 240px;
+    height: 260px;
+    margin-right: 16px;
+
+    @media (max-width: 576px) {
+        width: 70%;
+        margin: 0 0 20px 0;
+    }
+}
+
+.example-article__img {
+    border-radius: 8px;
+}
+
+.example-text-container {
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
