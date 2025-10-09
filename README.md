@@ -4,7 +4,7 @@
 
 Prosjekt er utviklet i forbindelse med **eksamen i emnet DS3103 Webutvikling (Høst 2024)** ved Høyskolen Kristiania, og løser eksamenscaset *TrumpVerse*, et ironisk case der oppgaven var å utviklet en fullstack-løsning bestående av:
 
-* Et **.NET/C# Web API** som utfører CRUD-operasjoner mot en SQLite-database.
+* Et **.NET/C# Web API** som utfører CRUD-operasjoner mot en SQLite-database, med en docs side for APIet.
 * En **React-frontend** som benytter API-et for å vise og administrere data.
 
 **Fokusområdene i eksamen:**
@@ -36,6 +36,7 @@ Prosjekt er utviklet i forbindelse med **eksamen i emnet DS3103 Webutvikling (H�
 - Viser produkter (GET)
 - Oppdaterer produkter (PUT)
 - Legger til produkter (POST)
+- Opplastning av bilder for nye produkter (POST)
   
 
 **LocalStorage** er brukt slik at valgt underside huskes mellom navigasjon, refresh eller lukking av nettleseren.
@@ -51,6 +52,7 @@ Alle sider har **responsivt design** og fungerer på mobil, nettbrett og desktop
 * Axios brukes til kommunikasjon mellom frontend og backend.
 * Alle API-kall (GET, POST, PUT, DELETE) er samlet i egne service-filer.
 * Data hentes og oppdateres dynamisk fra SQLite-databasen.
+* Bildeopplasting håndteres via multipart/form-data i Axios
 
 ### Context API
 
@@ -121,5 +123,6 @@ dotnet run
 ```
 
 API-et vil kjøre på: `http://localhost:5177`
+Dokumentasjonssiden: Besøk http://localhost:5177/docs for å se en oversikt over alle API-endepunkter, metoder og hvordan de brukes.
 
 
