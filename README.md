@@ -122,7 +122,8 @@ cd TrumpApi
 dotnet run
 ```
 
-API-et vil kjøre på: `http://localhost:5177`
-Dokumentasjonssiden: Besøk http://localhost:5177/docs for å se en oversikt over alle API-endepunkter, metoder og hvordan de brukes.
+API-et vil kjøre på: http://localhost:5177
+
+Dokumentasjonside: Besøk http://localhost:5177/docs.html for oversikt over alle API-endepunkter, metoder og hvordan de brukes.
 
 
