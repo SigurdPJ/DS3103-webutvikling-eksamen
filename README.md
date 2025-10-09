@@ -112,7 +112,6 @@ npm run dev
 ```
 
 Dette vil starte applikasjonen og automatisk åpne den i nettleseren.
-Standardadresse: `http://localhost:5173`
 
 
 #### 3. Kjør backend (TrumpApi)
